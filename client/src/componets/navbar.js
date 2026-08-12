@@ -14,7 +14,7 @@ function Navbar({location,onRefresh,loading}) {
       <h1>Weather App</h1>
     </div>
     <div className="flex items-center gap-2 bg-white/20 px-4 py-2 justify-center mt-4">
-        <span className="text-gray-xl-700">Current Location: </span>
+        <span className="text-gray-xl-700">Location: </span>
         <span className="font-medium">{location}
         </span>
      </div>

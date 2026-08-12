@@ -48,3 +48,4 @@ console.log("Location weather API:",data);
     );
   }
 }
+
