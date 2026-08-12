@@ -82,6 +82,7 @@ function Error({ message, onRetry }) {
 
     </div>
   );
+  
 }
 
 export default Error;
