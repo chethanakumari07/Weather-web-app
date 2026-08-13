@@ -146,27 +146,27 @@ function formatWeatherData(data) {
   };
 }
 
-// CREATE NODE.JS SERVER
+// // CREATE NODE.JS SERVER
 
-const server = http.createServer(
-  async (request, response) => {
+// const server = http.createServer(
+//   async (request, response) => {
 
-    // Allow React frontend to access backend
-    response.setHeader(
-      "Access-Control-Allow-Origin",
-      "*"
-    );
+//     // Allow React frontend to access backend
+//     response.setHeader(
+//       "Access-Control-Allow-Origin",
+//       "*"
+//     );
 
-    response.setHeader(
-      "Content-Type",
-      "application/json"
-    );
+//     response.setHeader(
+//       "Content-Type",
+//       "application/json"
+//     );
 
 
-    const url = new URL(
-      request.url,
-      `http://localhost:${PORT}`
-    );
+//     const url = new URL(
+//       request.url,
+//       `http://localhost:${PORT}`
+//     );
 
     // TEST SERVER
 
