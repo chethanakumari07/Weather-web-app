@@ -40,7 +40,7 @@ export async function getWeatherByCoordinates(
         data.message || "Unable to fetch weather"
       );
     }
-console.log("Location weather API:",data);
+  console.log("Location weather API:",data);
     return data;
   } catch (error) {
     throw new Error(
