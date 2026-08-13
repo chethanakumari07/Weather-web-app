@@ -1,10 +1,7 @@
 const https = require("https");
-<<<<<<< HEAD
 const http = require("http");
 const PORT = 5000;
 
-=======
->>>>>>> f0af4b3a99ff4e07ce70fabdcff65d1adace74a9
 // Put your Visual Crossing API key here
 const API_KEY = "HERHGD5D8GHQQL9GXVA7CNMR4";
 
@@ -300,7 +297,4 @@ const server = http.createServer(
 
   }
 );
-<<<<<<< HEAD
-
-=======
->>>>>>> f0af4b3a99ff4e07ce70fabdcff65d1adace74a9
+module.exports = server;
