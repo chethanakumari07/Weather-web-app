@@ -1,9 +1,4 @@
-const http = require("http");
 const https = require("https");
-const { URL } = require("url");
-
-const PORT = 5000;
-
 // Put your Visual Crossing API key here
 const API_KEY = "HERHGD5D8GHQQL9GXVA7CNMR4";
 
@@ -299,13 +294,3 @@ const server = http.createServer(
 
   }
 );
-
-// START SERVER
-
-server.listen(PORT, () => {
-
-  console.log(
-    `Weather server running at http://localhost:${PORT}`
-  );
-
-});
