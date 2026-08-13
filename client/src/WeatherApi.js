@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/weather";
+const API_URL = "/api/weather";
 //   Get weather using city name
 export async function getWeatherByCity(city) {
   try {
