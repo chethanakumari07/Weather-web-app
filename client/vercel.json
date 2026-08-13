@@ -1,15 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/weather.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/react-scripts"
-    }
-  ],
   "rewrites": [
     {
       "source": "/api/weather",
