@@ -297,4 +297,4 @@ const server = http.createServer(
 
   }
 );
-
+module.exports = server;
