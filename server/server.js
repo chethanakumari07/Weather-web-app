@@ -5,7 +5,7 @@ const { URL } = require("url");
 const PORT = 5000;
 
 // Put your Visual Crossing API key here
-const API_KEY = "SWXTZCQ4QFTNGK6A8MF53SZZL";
+const API_KEY = "HERHGD5D8GHQQL9GXVA7CNMR4";
 
 // FETCH WEATHER FROM VISUAL CROSSING
 
